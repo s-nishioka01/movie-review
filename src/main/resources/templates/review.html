@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>映画レビュー</title>
+	<meta charset="UTF-8">
+	<link th:href="@{/css/style.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="main">
+		<div class="title">
+			<h1>Title</h1>
+		</div>
+		<div class="error-message">
+			<p th:text="${error}"></p>
+		</div>
+		<div class="table-section">
+		
+		</div>
+		<div class="btn create-link-btn">
+			<a href="/new">新規追加</a>
+		</div>
+	</div>
+</body>
+</html>
