@@ -17,7 +17,7 @@ public class MovieController {
 	public String review(Model model) {
 		model.addAttribute("title", "title");
 		model.addAttribute("genre", "genre");
-		model.addAttribute("stars", "stars");
+		model.addAttribute("evaluation", "evaluation");
 		model.addAttribute("reviewTitle", "reviewTitle");
 		model.addAttribute("reviewText", "reviewText");
 		return "review";
