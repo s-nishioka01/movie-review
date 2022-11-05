@@ -8,6 +8,7 @@ public class MovieController {
 	@GetMapping("/top")
 	public String top(Model model) {
 		model.addAttribute("title", "title");
+		model.addAttribute("actorList", "list");
 		model.addAttribute("error", "");
 		return "top";
 	}
@@ -15,6 +16,10 @@ public class MovieController {
 	@GetMapping("/review")
 	public String review(Model model) {
 		model.addAttribute("title", "title");
+		model.addAttribute("genre", "genre");
+		model.addAttribute("stars", "stars");
+		model.addAttribute("reviewTitle", "reviewTitle");
+		model.addAttribute("reviewText", "reviewText");
 		return "review";
 	}
 
