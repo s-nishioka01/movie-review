@@ -17,7 +17,6 @@ public class MovieController {
 
 	@GetMapping("/top")
 	public String top(Model model) {
-		model.addAttribute("title", "title");
 		model.addAttribute("movieList", movieService.getMovieList());
 		model.addAttribute("error", "");
 		return "top";
