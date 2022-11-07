@@ -30,6 +30,7 @@ public class MovieController {
 		model.addAttribute("evaluation", "evaluation");
 		model.addAttribute("reviewTitle", "reviewTitle");
 		model.addAttribute("reviewText", "reviewText");
+		model.addAttribute("error", "");
 		return "review";
 	}
 
