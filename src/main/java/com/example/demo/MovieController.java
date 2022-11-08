@@ -33,4 +33,9 @@ public class MovieController {
 		return "review";
 	}
 
+	@GetMapping("/new")
+	public String newPurchase(Model model) {
+		return "new";
+	}
+
 }
